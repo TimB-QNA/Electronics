@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Sun 09 Dec 2012 13:49:38 GMT
+PCBNEW-LibModule-V1  Sun 09 Dec 2012 15:54:41 GMT
 # encoding utf-8
 $INDEX
 PIN_ARRAY_2X1

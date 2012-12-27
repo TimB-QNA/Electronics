@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sun 09 Dec 2012 13:20:41 GMT
+# EESchema Netlist Version 1.1 created  Wed 12 Dec 2012 21:28:30 GMT
 (
  ( /50BE4142 SM1206 C1 2.2uF
   ( 1 N-000130 )
@@ -16,19 +16,19 @@
   ( 1 N-000111 )
   ( 2 N-000113 )
  )
- ( /50BE4335 SM1206 C5 180uF
+ ( /50BE4335 C2V8 C5 180uF
   ( 1 N-000096 )
   ( 2 /0v )
  )
- ( /50BFA096 SM1206 C6 180uF
+ ( /50BFA096 C2V8 C6 180uF
   ( 1 N-000121 )
   ( 2 /0v )
  )
- ( /50BE42E6 SM1206 D1 45V,_5A
+ ( /50BE42E6 D3 D1 45V,_5A
   ( 1 /0v )
   ( 2 N-000123 )
  )
- ( /50BFA097 SM1206 D2 45V,_5A
+ ( /50BFA097 D3 D2 45V,_5A
   ( 1 /0v )
   ( 2 N-000113 )
  )

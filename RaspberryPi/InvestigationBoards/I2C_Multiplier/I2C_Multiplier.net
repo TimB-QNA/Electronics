@@ -1,0 +1,309 @@
+# EESchema Netlist Version 1.1 created  Wed 16 Jan 2013 21:58:37 GMT
+(
+ ( /50BE3BBD pin_array_13x2 P2 CONN_13X2
+  ( 1 /3v3 )
+  ( 2 /5v )
+  ( 3 /R_SDA )
+  ( 4 /5v )
+  ( 5 /R_SCL )
+  ( 6 /0v )
+  ( 7 /1Wire )
+  ( 8 ? )
+  ( 9 /0v )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 /0v )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 /0v )
+  ( 21 ? )
+  ( 22 ? )
+  ( 23 ? )
+  ( 24 ? )
+  ( 25 /0v )
+  ( 26 ? )
+ )
+ ( /50E854CB pin_array_8x2 P3 CONN_8X2
+  ( 1 /SDA0 )
+  ( 2 /SCL0 )
+  ( 3 /SDA1 )
+  ( 4 /SCL1 )
+  ( 5 /SDA2 )
+  ( 6 /SCL2 )
+  ( 7 /SDA3 )
+  ( 8 /SCL3 )
+  ( 9 /SDA4 )
+  ( 10 /SCL4 )
+  ( 11 /SDA5 )
+  ( 12 /SCL5 )
+  ( 13 /SDA6 )
+  ( 14 /SCL6 )
+  ( 15 /SDA7 )
+  ( 16 /SCL7 )
+ )
+ ( /50BE59F1 SM1206 R1 1k5
+  ( 1 /3v3 )
+  ( 2 /R_SCL )
+ )
+ ( /50BE59F6 SM1206 R2 1k5
+  ( 1 /3v3 )
+  ( 2 /R_SDA )
+ )
+ ( /50F72145 SM1206 R3 1k5
+  ( 1 /3v3 )
+  ( 2 N-000040 )
+ )
+ ( /50F71F29 SM1206 R4 1k5
+  ( 1 /3v3 )
+  ( 2 /SCL0 )
+ )
+ ( /50F71F2F SM1206 R5 1k5
+  ( 1 /3v3 )
+  ( 2 /SDA0 )
+ )
+ ( /50F71F4A SM1206 R6 1k5
+  ( 1 /3v3 )
+  ( 2 /SCL1 )
+ )
+ ( /50BE7532 SM1206 R7 4k7
+  ( 1 /3v3 )
+  ( 2 /1Wire )
+ )
+ ( /50F71F49 SM1206 R8 1k5
+  ( 1 /3v3 )
+  ( 2 /SDA1 )
+ )
+ ( /50F71F53 SM1206 R9 1k5
+  ( 1 /3v3 )
+  ( 2 /SCL2 )
+ )
+ ( /50F71F52 SM1206 R10 1k5
+  ( 1 /3v3 )
+  ( 2 /SDA2 )
+ )
+ ( /50F71F50 SM1206 R11 1k5
+  ( 1 /3v3 )
+  ( 2 /SCL3 )
+ )
+ ( /50F71F51 SM1206 R12 1k5
+  ( 1 /3v3 )
+  ( 2 /SDA3 )
+ )
+ ( /50F71F67 SM1206 R13 1k5
+  ( 1 /3v3 )
+  ( 2 /SCL4 )
+ )
+ ( /50F71F66 SM1206 R14 1k5
+  ( 1 /3v3 )
+  ( 2 /SDA4 )
+ )
+ ( /50F71F64 SM1206 R15 1k5
+  ( 1 /3v3 )
+  ( 2 /SCL5 )
+ )
+ ( /50F71F65 SM1206 R16 1k5
+  ( 1 /3v3 )
+  ( 2 /SDA5 )
+ )
+ ( /50F71F60 SM1206 R17 1k5
+  ( 1 /3v3 )
+  ( 2 /SCL6 )
+ )
+ ( /50F71F61 SM1206 R18 1k5
+  ( 1 /3v3 )
+  ( 2 /SDA6 )
+ )
+ ( /50F71F63 SM1206 R19 1k5
+  ( 1 /3v3 )
+  ( 2 /SCL7 )
+ )
+ ( /50F71F62 SM1206 R20 1k5
+  ( 1 /3v3 )
+  ( 2 /SDA7 )
+ )
+ ( /50F71EF9 SO24E U1 PCA9548
+  ( 1 /0v )
+  ( 2 /0v )
+  ( 3 N-000040 )
+  ( 4 /SDA0 )
+  ( 5 /SCL0 )
+  ( 6 /SDA1 )
+  ( 7 /SCL1 )
+  ( 8 /SDA2 )
+  ( 9 /SCL2 )
+  ( 10 /SDA3 )
+  ( 11 /SCL3 )
+  ( 12 /0v )
+  ( 13 /SDA4 )
+  ( 14 /SCL4 )
+  ( 15 /SDA5 )
+  ( 16 /SCL5 )
+  ( 17 /SDA6 )
+  ( 18 /SCL6 )
+  ( 19 /SDA7 )
+  ( 20 /SCL7 )
+  ( 21 /0v )
+  ( 22 /R_SCL )
+  ( 23 /R_SDA )
+  ( 24 /3v3 )
+ )
+ ( /50BE750E SO8E U8 DS18B20
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 /3v3 )
+  ( 4 /1Wire )
+  ( 5 /0v )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

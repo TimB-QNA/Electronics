@@ -1,0 +1,283 @@
+# EESchema Netlist Version 1.1 created  Tue 15 Jan 2013 19:21:21 GMT
+(
+ ( /50BE4142 SM1206 C1 2.2uF
+  ( 1 /Power )
+  ( 2 /0v )
+ )
+ ( /50BE41ED SM1206 C2 10nF
+  ( 1 N-000022 )
+  ( 2 N-000021 )
+ )
+ ( /50BF9E3E SM1206POL C3 22uF
+  ( 1 /Power )
+  ( 2 /0v )
+ )
+ ( /50BE4335 C2V8 C5 180uF
+  ( 1 N-000023 )
+  ( 2 /0v )
+ )
+ ( /50BE42E6 D3 D1 45V,_5A
+  ( 1 /0v )
+  ( 2 N-000021 )
+ )
+ ( /50E89148 PIN_ARRAY_3X1 JP1 JUMPER3
+  ( 1 /5v )
+  ( 2 N-000023 )
+  ( 3 /3v3 )
+ )
+ ( /50E89CD0 PIN_ARRAY_3X1 JP2 JUMPER3
+  ( 1 N-000027 )
+  ( 2 /SPI_CS )
+  ( 3 N-000030 )
+ )
+ ( /50BE42B2 R7 L1 4.7uH,_8.5A
+  ( 1 N-000021 )
+  ( 2 N-000023 )
+ )
+ ( /50BE412A PIN_ARRAY_2X1 P1 CONN_2
+  ( 1 /0v )
+  ( 2 /Power )
+ )
+ ( /50BE3BBD pin_array_13x2 P2 CONN_13X2
+  ( 1 /3v3 )
+  ( 2 /5v )
+  ( 3 /R_SDA )
+  ( 4 /5v )
+  ( 5 /R_SCL )
+  ( 6 /0v )
+  ( 7 /1Wire )
+  ( 8 ? )
+  ( 9 /0v )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 /0v )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 /MOSI )
+  ( 20 /0v )
+  ( 21 ? )
+  ( 22 ? )
+  ( 23 /SPI_CLK )
+  ( 24 N-000030 )
+  ( 25 /0v )
+  ( 26 N-000027 )
+ )
+ ( /50E854CB pin_array_8x2 P3 CONN_8X2
+  ( 1 N-000013 )
+  ( 2 N-000012 )
+  ( 3 N-000051 )
+  ( 4 N-000055 )
+  ( 5 N-000011 )
+  ( 6 N-000054 )
+  ( 7 N-000052 )
+  ( 8 N-000020 )
+  ( 9 N-000019 )
+  ( 10 N-000053 )
+  ( 11 N-000057 )
+  ( 12 N-000046 )
+  ( 13 N-000018 )
+  ( 14 N-000017 )
+  ( 15 N-000056 )
+  ( 16 N-000016 )
+ )
+ ( /50E80DD0 PIN_ARRAY_2X1 P4 CONN_2
+  ( 1 N-000006 )
+  ( 2 /0v )
+ )
+ ( /50F5A81E 2_9_Jumper P5 CONN_9X2
+  ( 1 /SDA )
+  ( 2 /R_SDA )
+  ( 3 /SDA )
+  ( 4 N-000013 )
+  ( 5 /SDA )
+  ( 6 N-000051 )
+  ( 7 /SDA )
+  ( 8 N-000011 )
+  ( 9 /SDA )
+  ( 10 N-000052 )
+  ( 11 /SDA )
+  ( 12 N-000019 )
+  ( 13 /SDA )
+  ( 14 N-000057 )
+  ( 15 /SDA )
+  ( 16 N-000018 )
+  ( 17 /SDA )
+  ( 18 N-000056 )
+ )
+ ( /50F5A810 2_9_Jumper P6 CONN_9X2
+  ( 1 /R_SCL )
+  ( 2 /SCL )
+  ( 3 N-000012 )
+  ( 4 /SCL )
+  ( 5 N-000055 )
+  ( 6 /SCL )
+  ( 7 N-000054 )
+  ( 8 /SCL )
+  ( 9 N-000020 )
+  ( 10 /SCL )
+  ( 11 N-000053 )
+  ( 12 /SCL )
+  ( 13 N-000046 )
+  ( 14 /SCL )
+  ( 15 N-000017 )
+  ( 16 /SCL )
+  ( 17 N-000016 )
+  ( 18 /SCL )
+ )
+ ( /50BE59F1 SM1206 R1 1k5
+  ( 1 /3v3 )
+  ( 2 /R_SCL )
+ )
+ ( /50BE59F6 SM1206 R2 1k5
+  ( 1 /3v3 )
+  ( 2 /R_SDA )
+ )
+ ( /50BE4209 SM1206 R3 61k9
+  ( 1 /0v )
+  ( 2 N-000041 )
+ )
+ ( /50BF9EC0 SM1206 R4 976R
+  ( 1 N-000044 )
+  ( 2 /0v )
+ )
+ ( /50BF9EB9 SM1206 R5 1k5
+  ( 1 N-000023 )
+  ( 2 N-000044 )
+ )
+ ( /50BE7532 SM1206 R7 4k7
+  ( 1 /3v3 )
+  ( 2 /1Wire )
+ )
+ ( /50E81724 SM1206 R8 R03
+  ( 1 N-000023 )
+  ( 2 N-000006 )
+ )
+ ( /50BF9D31 texas-msp-TO263-7PIN U1 LM22677
+  ( 1 N-000021 )
+  ( 2 /Power )
+  ( 3 N-000022 )
+  ( 4 /0v )
+  ( 5 N-000041 )
+  ( 6 N-000044 )
+  ( 7 ? )
+  ( 8 /0v )
+ )
+ ( /50E84B12 maxim-TSSOP14 U3 MAX5437
+  ( 1 /SPI_CLK )
+  ( 2 /MOSI )
+  ( 3 /SPI_CS )
+  ( 4 /0v )
+  ( 5 /0v )
+  ( 6 /0v )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 N-000023 )
+  ( 11 N-000023 )
+  ( 12 N-000044 )
+  ( 13 /0v )
+  ( 14 /3v3 )
+ )
+ ( /50E81673 SO10E U6 INA_220
+  ( 1 /0v )
+  ( 2 /0v )
+  ( 3 ? )
+  ( 4 /SDA )
+  ( 5 /SCL )
+  ( 6 /3v3 )
+  ( 7 /0v )
+  ( 8 N-000006 )
+  ( 9 N-000006 )
+  ( 10 N-000023 )
+ )
+ ( /50BE750E SO8E U8 DS18B20
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 /3v3 )
+  ( 4 /1Wire )
+  ( 5 /0v )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

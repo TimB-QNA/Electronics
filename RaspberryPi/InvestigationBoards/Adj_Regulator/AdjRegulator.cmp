@@ -1,0 +1,178 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Tue 15 Jan 2013 19:21:21 GMT
+
+BeginCmp
+TimeStamp = /50BE4142;
+Reference = C1;
+ValeurCmp = 2.2uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50BE41ED;
+Reference = C2;
+ValeurCmp = 10nF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50BF9E3E;
+Reference = C3;
+ValeurCmp = 22uF;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /50BE4335;
+Reference = C5;
+ValeurCmp = 180uF;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /50BE42E6;
+Reference = D1;
+ValeurCmp = 45V,_5A;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /50E89148;
+Reference = JP1;
+ValeurCmp = JUMPER3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50E89CD0;
+Reference = JP2;
+ValeurCmp = JUMPER3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50BE42B2;
+Reference = L1;
+ValeurCmp = 4.7uH,_8.5A;
+IdModule  = R7;
+EndCmp
+
+BeginCmp
+TimeStamp = /50BE412A;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50BE3BBD;
+Reference = P2;
+ValeurCmp = CONN_13X2;
+IdModule  = pin_array_13x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50E854CB;
+Reference = P3;
+ValeurCmp = CONN_8X2;
+IdModule  = pin_array_8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50E80DD0;
+Reference = P4;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F5A81E;
+Reference = P5;
+ValeurCmp = CONN_9X2;
+IdModule  = 2_9_Jumper;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F5A810;
+Reference = P6;
+ValeurCmp = CONN_9X2;
+IdModule  = 2_9_Jumper;
+EndCmp
+
+BeginCmp
+TimeStamp = /50BE59F1;
+Reference = R1;
+ValeurCmp = 1k5;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50BE59F6;
+Reference = R2;
+ValeurCmp = 1k5;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50BE4209;
+Reference = R3;
+ValeurCmp = 61k9;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50BF9EC0;
+Reference = R4;
+ValeurCmp = 976R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50BF9EB9;
+Reference = R5;
+ValeurCmp = 1k5;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50BE7532;
+Reference = R7;
+ValeurCmp = 4k7;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50E81724;
+Reference = R8;
+ValeurCmp = R03;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50BF9D31;
+Reference = U1;
+ValeurCmp = LM22677;
+IdModule  = texas-msp-TO263-7PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /50E84B12;
+Reference = U3;
+ValeurCmp = MAX5437;
+IdModule  = maxim-TSSOP14;
+EndCmp
+
+BeginCmp
+TimeStamp = /50E81673;
+Reference = U6;
+ValeurCmp = INA_220;
+IdModule  = SO10E;
+EndCmp
+
+BeginCmp
+TimeStamp = /50BE750E;
+Reference = U8;
+ValeurCmp = DS18B20;
+IdModule  = SO8E;
+EndCmp
+
+EndListe

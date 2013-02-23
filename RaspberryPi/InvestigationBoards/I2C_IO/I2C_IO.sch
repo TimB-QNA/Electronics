@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 16 Jan 2013 20:41:20 GMT
+EESchema Schematic File Version 2  date Sat 23 Feb 2013 09:19:33 GMT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "16 jan 2013"
+Date "23 feb 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -477,9 +477,9 @@ F 1 "CONN_4" V 1550 7250 50  0000 C CNN
 	1    1500 7250
 	0    -1   1    0   
 $EndComp
-Text Label 1800 5850 0    60   ~ 0
-SDA
 Text Label 1800 5950 0    60   ~ 0
+SDA
+Text Label 1800 5850 0    60   ~ 0
 SCL
 NoConn ~ 2000 5450
 NoConn ~ 2000 5350

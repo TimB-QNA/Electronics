@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Wed 16 Jan 2013 20:41:18 GMT
+# EESchema Netlist Version 1.1 created  Sat 23 Feb 2013 09:19:38 GMT
 (
  ( /50F70D6D $noname  P1 CONN_4X2 {Lib=CONN_4X2}
   (    1 /3v3 )
@@ -174,8 +174,8 @@
   (   19 N-000079 )
   (   20 N-000011 )
   (   21 /0v )
-  (   22 /SDA )
-  (   23 /SCL )
+  (   22 /SCL )
+  (   23 /SDA )
   (   24 /3v3 )
  )
  ( /50F6F95D $noname  U2 MAXIM_1239 {Lib=MAXIM_1239}
@@ -335,79 +335,73 @@ Net 3 "" ""
  U1 5
  P8 3
 Net 4 "" ""
- U1 6
  P1 2
+ U1 6
 Net 5 "/3v3" "3v3"
- U2 12
- U8 3
- P4 1
- R2 1
- R7 1
- P4 4
- P10 9
- P1 1
- P10 7
+ P10 3
  P10 5
  P1 3
- P10 3
+ P10 9
  P1 5
  P10 1
- P1 7
- P4 2
- P4 3
- P4 5
- P4 6
- P9 1
- P9 2
- P9 3
+ P10 7
+ P1 1
+ P4 4
+ P4 1
  P9 6
- P10 21
- P10 13
- P10 23
- P10 15
- P10 17
- P2 1
- P10 19
- R1 1
  U1 24
  P9 5
  P9 4
  P10 11
+ P1 7
+ P9 3
+ P9 2
+ P9 1
+ P4 6
+ P4 5
+ P2 1
+ P4 3
+ P4 2
+ R2 1
+ P10 15
+ P10 17
+ P10 19
+ P10 23
+ U8 3
+ R1 1
+ U2 12
+ R7 1
+ P10 21
+ P10 13
 Net 6 "" ""
  U1 14
  P8 11
-Net 7 "/SCL" "SCL"
- P6 10
- P6 8
- P6 12
- P6 6
- P6 14
- P6 4
- P6 16
- P6 18
- P6 2
- U2 9
+Net 7 "/SDA" "SDA"
  U1 23
-Net 8 "/SDA" "SDA"
- U1 22
- U2 10
- P5 7
  P5 5
+ P5 7
  P5 9
  P5 11
+ U2 10
  P5 3
  P5 13
  P5 15
  P5 17
  P5 1
+Net 8 "/SCL" "SCL"
+ P6 18
+ P6 2
+ P6 16
+ P6 14
+ P6 12
+ P6 10
+ P6 8
+ P6 6
+ P6 4
+ U1 22
+ U2 9
 Net 9 "/0v" "0v"
- P8 14
- P8 20
- P8 8
- P8 6
- P8 4
- P8 2
- P8 10
+ P13 2
  P14 1
  P14 2
  P14 3
@@ -415,13 +409,19 @@ Net 9 "/0v" "0v"
  P14 5
  P14 6
  P13 1
- P13 2
  P13 3
+ P8 14
+ P8 8
  P13 4
  P13 5
  P13 6
  P8 22
  P8 12
+ P8 20
+ P8 6
+ P8 4
+ P8 2
+ P8 10
  P12 10
  P12 8
  P12 18

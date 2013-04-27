@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Tue 15 Jan 2013 19:21:21 GMT
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Mon 21 Jan 2013 18:40:58 GMT
 
 BeginCmp
 TimeStamp = /50BE4142;
@@ -165,7 +165,7 @@ BeginCmp
 TimeStamp = /50E81673;
 Reference = U6;
 ValeurCmp = INA_220;
-IdModule  = SO10E;
+IdModule  = QSOP10-INA220;
 EndCmp
 
 BeginCmp

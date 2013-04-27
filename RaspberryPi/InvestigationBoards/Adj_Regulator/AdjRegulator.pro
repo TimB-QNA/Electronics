@@ -1,4 +1,4 @@
-update=Tue 15 Jan 2013 20:06:44 GMT
+update=Fri 19 Apr 2013 08:59:54 BST
 version=1
 last_client=kicad
 [eeschema]
@@ -104,6 +104,7 @@ LibName17=inductors-jwmiller
 LibName18=inductor-toko
 LibName19=/home/timb/Electronics/Library/SO10E
 LibName20=/home/timb/Electronics/Library/2x9_Jumper
+LibName21=/home/timb/Electronics/Library/QSOP10-INA220
 LibDir=/home/timb/Electronics/Library/converted
 [cvpcb]
 version=1

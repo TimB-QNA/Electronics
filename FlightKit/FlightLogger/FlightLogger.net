@@ -1,0 +1,883 @@
+# EESchema Netlist Version 1.1 created  Tue 30 Jul 2013 18:48:54 BST
+(
+ ( /51F3F568/51F38BFF SM0603_Capa C201 10nF
+  ( 1 /ARM_Cortex_M3/PROG_VCC )
+  ( 2 /3v3Supply/GND )
+ )
+ ( /51F3F568/51F2F8C2 SM0603_Capa C202 10nF
+  ( 1 /ARM_Cortex_M3/VB )
+  ( 2 /3v3Supply/GND )
+ )
+ ( /51F3F568/51F00071 SM0603_Capa C203 22pF
+  ( 1 /3v3Supply/GND )
+  ( 2 N-000057 )
+ )
+ ( /51F3F568/51F00075 SM0603_Capa C204 22pF
+  ( 1 /3v3Supply/GND )
+  ( 2 N-000128 )
+ )
+ ( /51F3F568/51F00109 SM0603_Capa C205 22pF
+  ( 1 /3v3Supply/GND )
+  ( 2 N-000055 )
+ )
+ ( /51F3F568/51F00108 SM0603_Capa C206 22pF
+  ( 1 /3v3Supply/GND )
+  ( 2 N-000054 )
+ )
+ ( /51F3F568/51F00007 SM0603_Capa C207 100nF
+  ( 1 N-000064 )
+  ( 2 /3v3Supply/GND )
+ )
+ ( /51F3F568/51F00011 SM0603_Capa C208 10uF
+  ( 1 N-000064 )
+  ( 2 /3v3Supply/GND )
+ )
+ ( /51F7D9C8/51F23554 SM0603_Capa C301 10nF
+  ( 1 /3v3Supply/3v3 )
+  ( 2 /3v3Supply/GND )
+ )
+ ( /51F7D9C8/51F23512 SM0603_Capa C302 0.1uF
+  ( 1 N-000204 )
+  ( 2 /3v3Supply/GND )
+ )
+ ( /51F7D9C8/51F234ED SM0603_Capa C303 2.2nF
+  ( 1 N-000206 )
+  ( 2 /3v3Supply/GND )
+ )
+ ( /51F7D9C8/51F234B5 SM0603_Capa C304 0.1uF
+  ( 1 /3v3Supply/GND )
+  ( 2 /3v3Supply/3v3 )
+ )
+ ( /51F7D729/51F17845 SM0603_Capa C401 1uF
+  ( 1 N-000202 )
+  ( 2 /3v3Supply/GND )
+ )
+ ( /51F7D729/51F17755 SM0603_Capa C402 C
+  ( 1 N-000182 )
+  ( 2 /3v3Supply/GND )
+ )
+ ( /51F7D729/51F19377 SM0603_Capa C403 22pF
+  ( 1 N-000167 )
+  ( 2 /GPS/GND_RF )
+ )
+ ( /51F3F9A5/51F0D772 SM0603_Capa C501 10uF
+  ( 1 /3v3Supply/VBAT )
+  ( 2 /3v3Supply/GND )
+ )
+ ( /51F3F9A5/51F0D7A8 SM0603_Capa C502 1uF
+  ( 1 /3v3Supply/VBAT )
+  ( 2 /3v3Supply/GND )
+ )
+ ( /51F3F9A5/51F0D816 SM0603_Capa C503 22uF
+  ( 1 /3v3Supply/3v3 )
+  ( 2 /3v3Supply/GND )
+ )
+ ( /51F7D5E0 LED-0805 D101 LED
+  ( 1 N-000024 )
+  ( 2 /3v3Supply/GND )
+ )
+ ( /51F7D528 LED-0805 D102 LED
+  ( 1 N-000028 )
+  ( 2 /3v3Supply/GND )
+ )
+ ( /51F7D531 LED-0805 D103 LED
+  ( 1 N-000027 )
+  ( 2 /3v3Supply/GND )
+ )
+ ( /51F7D53A LED-0805 D104 LED
+  ( 1 N-000026 )
+  ( 2 /3v3Supply/GND )
+ )
+ ( /51F3F568/51F00BED LED-0805 D201 LED
+  ( 1 N-000083 )
+  ( 2 N-000072 )
+ )
+ ( /51F3F568/51F00BEE LED-0805 D202 LED
+  ( 1 N-000081 )
+  ( 2 N-000070 )
+ )
+ ( /51F7D729/51F17A0D LED-0805 D401 LED
+  ( 1 N-000169 )
+  ( 2 /3v3Supply/GND )
+ )
+ ( /51F3F568/51F64C6F CONN_USB2_MiniB_SMT J201 USB_2
+  ( 1 /ARM_Cortex_M3/PROG_VCC )
+  ( 2 /ARM_Cortex_M3/PROG_D- )
+  ( 3 /ARM_Cortex_M3/PROG_D+ )
+  ( 4 /3v3Supply/GND )
+ )
+ ( /51F3F568/51F2F94D CONN_USB2_MiniB_SMT J202 USB_2
+  ( 1 /ARM_Cortex_M3/VB )
+  ( 2 /ARM_Cortex_M3/USB- )
+  ( 3 /ARM_Cortex_M3/USB+ )
+  ( 4 /3v3Supply/GND )
+ )
+ ( /51F3F568/51F38EC1 SIL-2 JP201 JUMPER
+  ( 1 N-000056 )
+  ( 2 /3v3Supply/GND )
+ )
+ ( /51F3F568/51EFFFEF SM1206 L201 MH2029-300Y
+  ( 1 /ARM_Cortex_M3/vCore )
+  ( 2 N-000064 )
+ )
+ ( /51F7D729/51F1934C SM1206 L401 33nH
+  ( 1 /3v3Supply/3v3 )
+  ( 2 N-000167 )
+ )
+ ( /51F3F9A5/51F0D80E SM1206 L501 6.8uH
+  ( 1 N-000154 )
+  ( 2 /3v3Supply/3v3 )
+ )
+ ( /51F7DCAA SIL-2 P101 CONN_2
+  ( 1 /3v3Supply/GND )
+  ( 2 /3v3Supply/VBAT )
+ )
+ ( /51F7D960 SIL-9 P102 CONN_9
+  ( 1 /ARM_Cortex_M3/PWM2_L )
+  ( 2 /ARM_Cortex_M3/PWM2_H )
+  ( 3 /ARM_Cortex_M3/PWM3_L )
+  ( 4 /ARM_Cortex_M3/PWM3_H )
+  ( 5 /ARM_Cortex_M3/PA19 )
+  ( 6 /ARM_Cortex_M3/PA20 )
+  ( 7 /ARM_Cortex_M3/AD1 )
+  ( 8 /3v3Supply/GND )
+  ( 9 /3v3Supply/VBAT )
+ )
+ ( /51F3FA36 SIL-4 P103 CONN_4
+  ( 1 /ARM_Cortex_M3/I2C_CLK )
+  ( 2 /ARM_Cortex_M3/I2C_DATA )
+  ( 3 /3v3Supply/3v3 )
+  ( 4 /3v3Supply/GND )
+ )
+ ( /51F7ABD0 SIL-4 P104 CONN_4
+  ( 1 /3v3Supply/3v3 )
+  ( 2 /ARM_Cortex_M3/TXD0 )
+  ( 3 /ARM_Cortex_M3/RXD0 )
+  ( 4 /3v3Supply/GND )
+ )
+ ( /51F7D729/51F19627 SIL-2 P401 CONN_5
+  ( 1 N-000167 )
+  ( 2 /GPS/GND_RF )
+  ( 3 /GPS/GND_RF )
+  ( 4 /GPS/GND_RF )
+  ( 5 /GPS/GND_RF )
+ )
+ ( /51F7D5DF SM0603 R101 500R
+  ( 1 /ARM_Cortex_M3/PB22 )
+  ( 2 N-000024 )
+ )
+ ( /51F7D54A SM0603 R102 500R
+  ( 1 /ARM_Cortex_M3/PB23 )
+  ( 2 N-000028 )
+ )
+ ( /51F7D555 SM0603 R103 500R
+  ( 1 /ARM_Cortex_M3/PB24 )
+  ( 2 N-000027 )
+ )
+ ( /51F7D558 SM0603 R104 500R
+  ( 1 /ARM_Cortex_M3/PB25 )
+  ( 2 N-000026 )
+ )
+ ( /51F7D4CB SM0603 R105 10k
+  ( 1 /3v3Supply/VBAT )
+  ( 2 /ARM_Cortex_M3/AD0 )
+ )
+ ( /51F7D4CF SM0603 R106 10k
+  ( 1 /ARM_Cortex_M3/AD0 )
+  ( 2 /3v3Supply/GND )
+ )
+ ( /51F3F568/51F00C1F SM0603 R201 500R
+  ( 1 /3v3Supply/3v3 )
+  ( 2 N-000083 )
+ )
+ ( /51F3F568/51F00C1A SM0603 R202 500R
+  ( 1 /3v3Supply/3v3 )
+  ( 2 N-000081 )
+ )
+ ( /51F3F568/51F0050B SM0603 R203 100k
+  ( 1 /3v3Supply/3v3 )
+  ( 2 /ARM_Cortex_M3/JTAG_TMS )
+ )
+ ( /51F3F568/51F00507 SM0603 R204 100k
+  ( 1 /3v3Supply/3v3 )
+  ( 2 /ARM_Cortex_M3/JTAG_TDO )
+ )
+ ( /51F3F568/51F0063D SM0603 R205 100k
+  ( 1 /ARM_Cortex_M3/JTAG_RESET )
+  ( 2 /3v3Supply/3v3 )
+ )
+ ( /51F3F568/51F00503 SM0603 R206 100k
+  ( 1 /3v3Supply/3v3 )
+  ( 2 /ARM_Cortex_M3/JTAG_TDI )
+ )
+ ( /51F3F568/51F006C2 SM0603 R207 100k
+  ( 1 N-000119 )
+  ( 2 /3v3Supply/3v3 )
+ )
+ ( /51F3F568/51F004FB SM0603 R208 100k
+  ( 1 /3v3Supply/3v3 )
+  ( 2 /ARM_Cortex_M3/JTAG_TCK )
+ )
+ ( /51F3F568/51F2F751 SM0603 R209 39R
+  ( 1 /ARM_Cortex_M3/USB+ )
+  ( 2 N-000146 )
+ )
+ ( /51F3F568/51F2F75E SM0603 R210 39R
+  ( 1 /ARM_Cortex_M3/USB- )
+  ( 2 N-000153 )
+ )
+ ( /51F3F568/51F1AE45 SM0603 R211 1k8
+  ( 1 /3v3Supply/3v3 )
+  ( 2 /ARM_Cortex_M3/I2C_CLK )
+ )
+ ( /51F3F568/51F1AE4D SM0603 R212 1k8
+  ( 1 /3v3Supply/3v3 )
+  ( 2 /ARM_Cortex_M3/I2C_DATA )
+ )
+ ( /51F3F568/51F0040A SM0603 R213 100k
+  ( 1 /3v3Supply/3v3 )
+  ( 2 N-000056 )
+ )
+ ( /51F7D729/51F17840 SM0603 R401 100k
+  ( 1 /3v3Supply/3v3 )
+  ( 2 N-000202 )
+ )
+ ( /51F7D729/51F17776 SM0603 R402 R
+  ( 1 /3v3Supply/3v3 )
+  ( 2 N-000182 )
+ )
+ ( /51F7D729/51F17902 SM0603 R403 10k
+  ( 1 N-000170 )
+  ( 2 /3v3Supply/GND )
+ )
+ ( /51F7D729/51F17A07 SM0603 R404 500R
+  ( 1 /GPS/GPS_LED )
+  ( 2 N-000169 )
+ )
+ ( /51F3F568/51F38B64 $noname$ U201 FT232RL
+  ( 1 /ARM_Cortex_M3/TX )
+  ( 2 /ARM_Cortex_M3/JTAG_RESET )
+  ( 3 ? )
+  ( 4 /3v3Supply/3v3 )
+  ( 5 /ARM_Cortex_M3/RX )
+  ( 6 ? )
+  ( 7 /3v3Supply/GND )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 /ARM_Cortex_M3/PROG_D+ )
+  ( 16 /ARM_Cortex_M3/PROG_D- )
+  ( 17 ? )
+  ( 18 /3v3Supply/GND )
+  ( 19 ? )
+  ( 20 /ARM_Cortex_M3/PROG_VCC )
+  ( 21 /3v3Supply/GND )
+  ( 22 N-000070 )
+  ( 23 N-000072 )
+  ( 25 ? )
+  ( 26 ? )
+  ( 27 ? )
+  ( 28 ? )
+ )
+ ( /51F3F568/51EFA75F TQFP144 U202 AT91SAM3X-144
+  ( 1 ? )
+  ( 2 /ARM_Cortex_M3/TX )
+  ( 3 /ARM_Cortex_M3/RXD0 )
+  ( 4 /ARM_Cortex_M3/TXD0 )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 /ARM_Cortex_M3/I2C_DATA )
+  ( 10 /ARM_Cortex_M3/vCore )
+  ( 11 /3v3Supply/3v3 )
+  ( 12 /3v3Supply/GND )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 ? )
+  ( 22 ? )
+  ( 23 ? )
+  ( 24 ? )
+  ( 25 ? )
+  ( 26 ? )
+  ( 27 /ARM_Cortex_M3/RX )
+  ( 28 /ARM_Cortex_M3/JTAG_TCK )
+  ( 29 /ARM_Cortex_M3/JTAG_TDI )
+  ( 30 /ARM_Cortex_M3/JTAG_TDO )
+  ( 31 /ARM_Cortex_M3/JTAG_TMS )
+  ( 32 ? )
+  ( 33 /3v3Supply/GND )
+  ( 34 N-000064 )
+  ( 35 N-000057 )
+  ( 36 N-000128 )
+  ( 37 /ARM_Cortex_M3/USB+ )
+  ( 38 /ARM_Cortex_M3/USB- )
+  ( 39 /ARM_Cortex_M3/VB )
+  ( 40 ? )
+  ( 41 ? )
+  ( 42 N-000146 )
+  ( 43 N-000153 )
+  ( 44 /3v3Supply/GND )
+  ( 45 /ARM_Cortex_M3/vCore )
+  ( 46 /3v3Supply/GND )
+  ( 47 /ARM_Cortex_M3/JTAG_RESET )
+  ( 48 N-000055 )
+  ( 49 N-000054 )
+  ( 50 ? )
+  ( 51 /3v3Supply/GND )
+  ( 52 /3v3Supply/3v3 )
+  ( 53 N-000119 )
+  ( 54 /3v3Supply/GND )
+  ( 55 ? )
+  ( 56 /ARM_Cortex_M3/vCore )
+  ( 57 /3v3Supply/3v3 )
+  ( 58 /3v3Supply/GND )
+  ( 59 ? )
+  ( 60 ? )
+  ( 61 /ARM_Cortex_M3/vCore )
+  ( 62 /3v3Supply/3v3 )
+  ( 63 ? )
+  ( 64 /ARM_Cortex_M3/PWM2_L )
+  ( 65 /ARM_Cortex_M3/PWM2_H )
+  ( 66 /ARM_Cortex_M3/PWM3_L )
+  ( 67 /ARM_Cortex_M3/PWM3_H )
+  ( 68 ? )
+  ( 69 ? )
+  ( 70 /ARM_Cortex_M3/I2C_CLK )
+  ( 71 /ARM_Cortex_M3/PA19 )
+  ( 72 /ARM_Cortex_M3/PA20 )
+  ( 73 /3v3Supply/3v3 )
+  ( 74 /3v3Supply/GND )
+  ( 75 /3v3Supply/3v3 )
+  ( 76 ? )
+  ( 77 ? )
+  ( 78 ? )
+  ( 79 ? )
+  ( 80 ? )
+  ( 81 ? )
+  ( 82 ? )
+  ( 83 ? )
+  ( 84 /ARM_Cortex_M3/AD1 )
+  ( 85 /ARM_Cortex_M3/AD0 )
+  ( 86 ? )
+  ( 87 ? )
+  ( 88 ? )
+  ( 89 ? )
+  ( 90 ? )
+  ( 91 /ARM_Cortex_M3/AD13 )
+  ( 92 /ARM_Cortex_M3/AD14 )
+  ( 93 ? )
+  ( 94 ? )
+  ( 95 ? )
+  ( 96 ? )
+  ( 97 ? )
+  ( 98 ? )
+  ( 99 ? )
+  ( 100 ? )
+  ( 101 ? )
+  ( 102 ? )
+  ( 103 ? )
+  ( 104 /ARM_Cortex_M3/vCore )
+  ( 105 /3v3Supply/3v3 )
+  ( 106 /3v3Supply/GND )
+  ( 107 ? )
+  ( 108 /ARM_Cortex_M3/SD_MISO )
+  ( 109 /ARM_Cortex_M3/SD_MOSI )
+  ( 110 /ARM_Cortex_M3/SD_CLK )
+  ( 111 ? )
+  ( 112 /ARM_Cortex_M3/SD_CS )
+  ( 113 ? )
+  ( 114 ? )
+  ( 115 ? )
+  ( 116 ? )
+  ( 117 ? )
+  ( 118 ? )
+  ( 119 ? )
+  ( 120 ? )
+  ( 121 ? )
+  ( 122 ? )
+  ( 123 ? )
+  ( 124 /ARM_Cortex_M3/vCore )
+  ( 125 /3v3Supply/3v3 )
+  ( 126 /3v3Supply/GND )
+  ( 127 ? )
+  ( 128 ? )
+  ( 129 ? )
+  ( 130 N-000056 )
+  ( 131 ? )
+  ( 132 ? )
+  ( 133 ? )
+  ( 134 ? )
+  ( 135 ? )
+  ( 136 ? )
+  ( 137 ? )
+  ( 138 ? )
+  ( 139 ? )
+  ( 140 ? )
+  ( 141 /ARM_Cortex_M3/PB22 )
+  ( 142 /ARM_Cortex_M3/PB23 )
+  ( 143 /ARM_Cortex_M3/PB24 )
+  ( 144 /ARM_Cortex_M3/PB25 )
+ )
+ ( /51F3F568/51F0172E Memory_Card_microSD_3M_290805 U203 CONN_MICROSD
+  ( 1 ? )
+  ( 2 /ARM_Cortex_M3/SD_CS )
+  ( 3 /ARM_Cortex_M3/SD_MOSI )
+  ( 4 /3v3Supply/3v3 )
+  ( 5 /ARM_Cortex_M3/SD_CLK )
+  ( 6 /3v3Supply/GND )
+  ( 7 /ARM_Cortex_M3/SD_MISO )
+  ( 8 ? )
+  ( 9 ? )
+ )
+ ( /51F7D9C8/51F2344A MPU9150 U301 MPU9150
+  ( 1 /3v3Supply/GND )
+  ( 2 ? )
+  ( 3 /3v3Supply/3v3 )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 /3v3Supply/3v3 )
+  ( 9 /3v3Supply/GND )
+  ( 10 N-000204 )
+  ( 11 /3v3Supply/GND )
+  ( 12 ? )
+  ( 13 /3v3Supply/3v3 )
+  ( 14 ? )
+  ( 15 /3v3Supply/GND )
+  ( 16 ? )
+  ( 17 /3v3Supply/GND )
+  ( 18 /3v3Supply/GND )
+  ( 19 ? )
+  ( 20 N-000206 )
+  ( 21 ? )
+  ( 22 ? )
+  ( 23 /ARM_Cortex_M3/I2C_CLK )
+  ( 24 /ARM_Cortex_M3/I2C_DATA )
+ )
+ ( /51F7D729/51F176CD VENUS638FLP U401 VENUS638FLP
+  ( 1 N-000202 )
+  ( 2 /3v3Supply/3v3 )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 /GPS/GPS_LED )
+  ( 8 N-000170 )
+  ( 9 /3v3Supply/GND )
+  ( 10 /3v3Supply/GND )
+  ( 11 /3v3Supply/GND )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 /3v3Supply/GND )
+  ( 16 ? )
+  ( 17 ? )
+  ( 18 N-000182 )
+  ( 19 /3v3Supply/GND )
+  ( 20 ? )
+  ( 21 /GPS/GND_RF )
+  ( 22 /GPS/GND_RF )
+  ( 23 ? )
+  ( 24 /GPS/GND_RF )
+  ( 25 /GPS/GND_RF )
+  ( 26 ? )
+  ( 27 /GPS/GND_RF )
+  ( 28 /GPS/GND_RF )
+  ( 29 /GPS/GND_RF )
+  ( 30 ? )
+  ( 31 /GPS/GND_RF )
+  ( 32 N-000167 )
+  ( 33 /GPS/GND_RF )
+  ( 34 ? )
+  ( 35 ? )
+  ( 36 /3v3Supply/3v3 )
+  ( 37 ? )
+  ( 38 ? )
+  ( 39 ? )
+  ( 40 ? )
+  ( 41 ? )
+  ( 42 /ARM_Cortex_M3/AD13 )
+  ( 43 ? )
+  ( 44 /ARM_Cortex_M3/AD14 )
+  ( 45 ? )
+  ( 46 ? )
+  ( 47 ? )
+  ( 48 ? )
+  ( 49 ? )
+  ( 50 ? )
+  ( 51 ? )
+  ( 52 ? )
+  ( 53 ? )
+  ( 54 ? )
+  ( 55 ? )
+  ( 56 ? )
+  ( 57 ? )
+  ( 58 /3v3Supply/3v3 )
+  ( 59 ? )
+  ( 60 ? )
+  ( 61 /GPS/GND_RF )
+  ( 62 /GPS/GND_RF )
+  ( 63 ? )
+  ( 64 ? )
+  ( 65 /GPS/GND_RF )
+  ( 66 ? )
+  ( 67 ? )
+  ( 68 ? )
+  ( 69 /GPS/GND_RF )
+ )
+ ( /51F3F9A5/51F0D72A m-pad-2.1-QFN16 U501 TPS6211X-RSA
+  ( 1 /3v3Supply/GND )
+  ( 2 /3v3Supply/VBAT )
+  ( 3 /3v3Supply/VBAT )
+  ( 4 /3v3Supply/VBAT )
+  ( 5 /3v3Supply/GND )
+  ( 6 ? )
+  ( 7 /3v3Supply/GND )
+  ( 8 /3v3Supply/VBAT )
+  ( 9 /3v3Supply/GND )
+  ( 10 /3v3Supply/3v3 )
+  ( 11 /3v3Supply/GND )
+  ( 12 /3v3Supply/GND )
+  ( 13 ? )
+  ( 14 N-000154 )
+  ( 15 N-000154 )
+  ( 16 /3v3Supply/GND )
+  ( P$1 /3v3Supply/GND )
+ )
+ ( /51F3F568/51F00064 SM2010 X201 12MHz
+  ( 1 N-000128 )
+  ( 2 N-000057 )
+ )
+ ( /51F3F568/51F0010A SM2010 X202 32.768kHz
+  ( 1 N-000054 )
+  ( 2 N-000055 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C201
+ SM*
+ C?
+ C1-1
+$endlist
+$component C202
+ SM*
+ C?
+ C1-1
+$endlist
+$component C203
+ SM*
+ C?
+ C1-1
+$endlist
+$component C204
+ SM*
+ C?
+ C1-1
+$endlist
+$component C205
+ SM*
+ C?
+ C1-1
+$endlist
+$component C206
+ SM*
+ C?
+ C1-1
+$endlist
+$component C207
+ SM*
+ C?
+ C1-1
+$endlist
+$component C208
+ CP*
+ SM*
+$endlist
+$component C301
+ SM*
+ C?
+ C1-1
+$endlist
+$component C302
+ SM*
+ C?
+ C1-1
+$endlist
+$component C303
+ SM*
+ C?
+ C1-1
+$endlist
+$component C304
+ SM*
+ C?
+ C1-1
+$endlist
+$component C401
+ SM*
+ C?
+ C1-1
+$endlist
+$component C402
+ SM*
+ C?
+ C1-1
+$endlist
+$component C403
+ SM*
+ C?
+ C1-1
+$endlist
+$component C501
+ SM*
+ C?
+ C1-1
+$endlist
+$component C502
+ SM*
+ C?
+ C1-1
+$endlist
+$component C503
+ SM*
+ C?
+ C1-1
+$endlist
+$component D101
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D102
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D103
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D104
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D201
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D202
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D401
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R101
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R102
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R103
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R104
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R105
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R106
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R201
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R202
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R203
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R204
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R205
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R206
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R207
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R208
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R209
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R210
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R211
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R212
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R213
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R401
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R402
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R403
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R404
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

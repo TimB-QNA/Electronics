@@ -1,4 +1,4 @@
-update=Mon 29 Jul 2013 11:18:36 BST
+update=Wed 31 Jul 2013 20:31:05 BST
 version=1
 last_client=pcbnew
 [general]
@@ -80,9 +80,9 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=320
-PadDimH=600
-PadDimV=600
+PadDrlX=394
+PadDimH=1063
+PadDimV=1063
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -110,3 +110,4 @@ LibName10=pga_sockets
 LibName11=valves
 LibName12=/home/timb/Electronics/Library/KiCAD_Libraries/modules/opendous
 LibName13=/home/timb/Electronics/Library/converted/m-pad-2_1
+LibName14=speaker

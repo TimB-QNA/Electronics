@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Tue 30 Jul 2013 18:48:54 BST
+# EESchema Netlist Version 1.1 created  Fri 02 Aug 2013 09:19:43 BST
 (
  ( /51F3F568/51F38BFF SM0603_Capa C201 10nF
   ( 1 /ARM_Cortex_M3/PROG_VCC )
@@ -10,7 +10,7 @@
  )
  ( /51F3F568/51F00071 SM0603_Capa C203 22pF
   ( 1 /3v3Supply/GND )
-  ( 2 N-000057 )
+  ( 2 N-000063 )
  )
  ( /51F3F568/51F00075 SM0603_Capa C204 22pF
   ( 1 /3v3Supply/GND )
@@ -73,19 +73,19 @@
   ( 2 /3v3Supply/GND )
  )
  ( /51F7D5E0 LED-0805 D101 LED
-  ( 1 N-000024 )
+  ( 1 N-000034 )
   ( 2 /3v3Supply/GND )
  )
  ( /51F7D528 LED-0805 D102 LED
-  ( 1 N-000028 )
+  ( 1 N-000040 )
   ( 2 /3v3Supply/GND )
  )
  ( /51F7D531 LED-0805 D103 LED
-  ( 1 N-000027 )
+  ( 1 N-000039 )
   ( 2 /3v3Supply/GND )
  )
  ( /51F7D53A LED-0805 D104 LED
-  ( 1 N-000026 )
+  ( 1 N-000038 )
   ( 2 /3v3Supply/GND )
  )
  ( /51F3F568/51F00BED LED-0805 D201 LED
@@ -155,6 +155,13 @@
   ( 3 /ARM_Cortex_M3/RXD0 )
   ( 4 /3v3Supply/GND )
  )
+ ( /51FB6B32 SIL-5 P105 CONN_5
+  ( 1 /3v3Supply/GND )
+  ( 2 /ARM_Cortex_M3/PB3 )
+  ( 3 /ARM_Cortex_M3/PB4 )
+  ( 4 /ARM_Cortex_M3/PB5 )
+  ( 5 /ARM_Cortex_M3/PB6 )
+ )
  ( /51F7D729/51F19627 SIL-2 P401 CONN_5
   ( 1 N-000167 )
   ( 2 /GPS/GND_RF )
@@ -164,19 +171,19 @@
  )
  ( /51F7D5DF SM0603 R101 500R
   ( 1 /ARM_Cortex_M3/PB22 )
-  ( 2 N-000024 )
+  ( 2 N-000034 )
  )
  ( /51F7D54A SM0603 R102 500R
   ( 1 /ARM_Cortex_M3/PB23 )
-  ( 2 N-000028 )
+  ( 2 N-000040 )
  )
  ( /51F7D555 SM0603 R103 500R
   ( 1 /ARM_Cortex_M3/PB24 )
-  ( 2 N-000027 )
+  ( 2 N-000039 )
  )
  ( /51F7D558 SM0603 R104 500R
   ( 1 /ARM_Cortex_M3/PB25 )
-  ( 2 N-000026 )
+  ( 2 N-000038 )
  )
  ( /51F7D4CB SM0603 R105 10k
   ( 1 /3v3Supply/VBAT )
@@ -185,6 +192,22 @@
  ( /51F7D4CF SM0603 R106 10k
   ( 1 /ARM_Cortex_M3/AD0 )
   ( 2 /3v3Supply/GND )
+ )
+ ( /51FB6B20 SM0603 R107 100k
+  ( 1 /3v3Supply/3v3 )
+  ( 2 /ARM_Cortex_M3/PB3 )
+ )
+ ( /51FB6B03 SM0603 R108 100k
+  ( 1 /3v3Supply/3v3 )
+  ( 2 /ARM_Cortex_M3/PB4 )
+ )
+ ( /51FB6B14 SM0603 R109 100k
+  ( 1 /3v3Supply/3v3 )
+  ( 2 /ARM_Cortex_M3/PB5 )
+ )
+ ( /51FB6B1B SM0603 R110 100k
+  ( 1 /3v3Supply/3v3 )
+  ( 2 /ARM_Cortex_M3/PB6 )
  )
  ( /51F3F568/51F00C1F SM0603 R201 500R
   ( 1 /3v3Supply/3v3 )
@@ -317,7 +340,7 @@
   ( 32 ? )
   ( 33 /3v3Supply/GND )
   ( 34 N-000064 )
-  ( 35 N-000057 )
+  ( 35 N-000063 )
   ( 36 N-000128 )
   ( 37 /ARM_Cortex_M3/USB+ )
   ( 38 /ARM_Cortex_M3/USB- )
@@ -400,10 +423,10 @@
   ( 115 ? )
   ( 116 ? )
   ( 117 ? )
-  ( 118 ? )
-  ( 119 ? )
-  ( 120 ? )
-  ( 121 ? )
+  ( 118 /ARM_Cortex_M3/PB3 )
+  ( 119 /ARM_Cortex_M3/PB4 )
+  ( 120 /ARM_Cortex_M3/PB5 )
+  ( 121 /ARM_Cortex_M3/PB6 )
   ( 122 ? )
   ( 123 ? )
   ( 124 /ARM_Cortex_M3/vCore )
@@ -557,7 +580,7 @@
  )
  ( /51F3F568/51F00064 SM2010 X201 12MHz
   ( 1 N-000128 )
-  ( 2 N-000057 )
+  ( 2 N-000063 )
  )
  ( /51F3F568/51F0010A SM2010 X202 32.768kHz
   ( 1 N-000054 )
@@ -754,6 +777,34 @@ $component R105
  SM1206
 $endlist
 $component R106
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R107
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R108
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R109
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R110
  R?
  SM0603
  SM0805

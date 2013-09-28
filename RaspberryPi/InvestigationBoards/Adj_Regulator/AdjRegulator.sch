@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 19 Apr 2013 08:55:30 BST
+EESchema Schematic File Version 2  date Sat 28 Sep 2013 22:20:46 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "19 apr 2013"
+Date "28 sep 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,7 +47,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 10050 3150
+Text Label 8100 4450 0    60   ~ 0
+Power
 Wire Wire Line
 	3950 4600 4050 4600
 Wire Wire Line
@@ -56,8 +57,6 @@ Wire Wire Line
 	3550 4850 3550 4800
 Wire Wire Line
 	3550 4800 3400 4800
-Wire Wire Line
-	9800 2700 9800 2850
 Connection ~ 1300 3800
 Wire Wire Line
 	1600 3700 2600 3700
@@ -71,11 +70,6 @@ Wire Wire Line
 	6400 3900 6400 4550
 Wire Wire Line
 	6400 4550 6950 4550
-Connection ~ 8200 4350
-Wire Wire Line
-	8200 4350 8200 4450
-Wire Wire Line
-	8200 4450 8100 4450
 Wire Wire Line
 	6500 4150 6950 4150
 Wire Wire Line
@@ -207,10 +201,6 @@ Wire Wire Line
 Wire Wire Line
 	1300 3700 1300 3800
 Wire Wire Line
-	10050 2950 10050 3150
-Wire Wire Line
-	10300 2700 10300 2850
-Wire Wire Line
 	3850 4350 3550 4350
 Wire Wire Line
 	3550 4350 3550 4700
@@ -231,17 +221,6 @@ F 1 "JUMPER3" H 3850 4700 40  0000 C CNN
 	1    3850 4600
 	0    -1   -1   0   
 $EndComp
-$Comp
-L JUMPER3 JP1
-U 1 1 50E89148
-P 10050 2850
-F 0 "JP1" H 10100 2750 40  0000 L CNN
-F 1 "JUMPER3" H 10050 2950 40  0000 C CNN
-	1    10050 2850
-	1    0    0    -1  
-$EndComp
-Text Label 10300 2700 0    60   ~ 0
-3v3
 Text Label 2600 4800 0    60   ~ 0
 0v
 Text Label 3400 4500 0    60   ~ 0
@@ -329,8 +308,6 @@ Text Notes 8450 2850 0    60   ~ 0
 Close jumper when using\nresistors to feed 5V / 3v3\nto Raspberry PI
 Text Label 3400 3800 0    60   ~ 0
 0v
-Text Label 9800 2700 0    60   ~ 0
-5v
 NoConn ~ 2600 4400
 $Comp
 L CONN_2 P4

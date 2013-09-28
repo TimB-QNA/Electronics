@@ -1,14 +1,9 @@
-# EESchema Netlist Version 1.1 created  Fri 19 Apr 2013 08:55:37 BST
+# EESchema Netlist Version 1.1 created  Sat 28 Sep 2013 22:21:14 BST
 (
  ( /50E89CD0 $noname  JP2 JUMPER3 {Lib=JUMPER3}
-  (    1 N-000036 )
+  (    1 N-000033 )
   (    2 /SPI_CS )
-  (    3 N-000037 )
- )
- ( /50E89148 $noname  JP1 JUMPER3 {Lib=JUMPER3}
-  (    1 /5v )
-  (    2 N-000038 )
-  (    3 /3v3 )
+  (    3 N-000035 )
  )
  ( /50E84B12 $noname  U3 MAX5437 {Lib=MAX5437}
   (    1 /SPI_CLK )
@@ -20,15 +15,15 @@
   (    7 ? )
   (    8 ? )
   (    9 ? )
-  (   10 N-000001 )
-  (   11 N-000001 )
-  (   12 N-000012 )
+  (   10 /Power )
+  (   11 N-000017 )
+  (   12 N-000009 )
   (   13 /0v )
   (   14 /3v3 )
  )
  ( /50E81724 $noname  R8 R03 {Lib=R}
-  (    1 N-000001 )
-  (    2 N-000038 )
+  (    1 N-000017 )
+  (    2 N-000016 )
  )
  ( /50E81673 $noname  U6 INA_220 {Lib=INA_220}
   (    1 /0v )
@@ -38,33 +33,33 @@
   (    5 /SCL )
   (    6 /3v3 )
   (    7 /0v )
-  (    8 N-000038 )
-  (    9 N-000038 )
-  (   10 N-000001 )
+  (    8 N-000016 )
+  (    9 N-000016 )
+  (   10 N-000017 )
  )
  ( /50E80DD0 $noname  P4 CONN_2 {Lib=CONN_2}
-  (    1 N-000038 )
+  (    1 N-000016 )
   (    2 /0v )
  )
  ( /50BF9EC0 $noname  R4 976R {Lib=R}
-  (    1 N-000012 )
+  (    1 N-000009 )
   (    2 /0v )
  )
  ( /50BF9EB9 $noname  R5 1k5 {Lib=R}
-  (    1 N-000001 )
-  (    2 N-000012 )
+  (    1 N-000017 )
+  (    2 N-000009 )
  )
  ( /50BF9E3E $noname  C3 22uF {Lib=CAPAPOL}
   (    1 /Power )
   (    2 /0v )
  )
  ( /50BF9D31 $noname  U1 LM22677 {Lib=LM22677}
-  (    1 N-000035 )
+  (    1 N-000032 )
   (    2 /Power )
-  (    3 N-000034 )
+  (    3 N-000031 )
   (    4 /0v )
-  (    5 N-000006 )
-  (    6 N-000012 )
+  (    5 N-000004 )
+  (    6 N-000009 )
   (    7 ? )
   (    8 /0v )
  )
@@ -91,24 +86,24 @@
   (    2 /SCL )
  )
  ( /50BE4335 $noname  C5 180uF {Lib=C}
-  (    1 N-000001 )
+  (    1 N-000017 )
   (    2 /0v )
  )
  ( /50BE42E6 $noname  D1 45V,_5A {Lib=DIODESCH}
   (    1 /0v )
-  (    2 N-000035 )
+  (    2 N-000032 )
  )
  ( /50BE42B2 $noname  L1 4.7uH,_8.5A {Lib=INDUCTOR}
-  (    1 N-000035 )
-  (    2 N-000001 )
+  (    1 N-000032 )
+  (    2 N-000017 )
  )
  ( /50BE4209 $noname  R3 61k9 {Lib=R}
   (    1 /0v )
-  (    2 N-000006 )
+  (    2 N-000004 )
  )
  ( /50BE41ED $noname  C2 10nF {Lib=C}
-  (    1 N-000034 )
-  (    2 N-000035 )
+  (    1 N-000031 )
+  (    2 N-000032 )
  )
  ( /50BE4142 $noname  C1 2.2uF {Lib=C}
   (    1 /Power )
@@ -142,9 +137,9 @@
   (   21 ? )
   (   22 ? )
   (   23 /SPI_CLK )
-  (   24 N-000037 )
+  (   24 N-000035 )
   (   25 /0v )
-  (   26 N-000036 )
+  (   26 N-000033 )
  )
 )
 *
@@ -224,104 +219,101 @@ $endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 1 "" ""
- R8 1
- L1 2
- C5 1
- R5 1
+Net 3 "/Power" "Power"
  U3 10
- U3 11
- U6 10
-Net 2 "/5v" "5v"
- JP1 1
- P2 2
- P2 4
-Net 5 "/Power" "Power"
  P1 2
- C1 1
  U1 2
+ C1 1
  C3 1
-Net 6 "" ""
+Net 4 "" ""
  R3 2
  U1 5
-Net 9 "/3v3" "3v3"
- P2 1
- U6 6
+Net 7 "/3v3" "3v3"
  R1 1
- JP1 3
+ U6 6
  R2 1
+ P2 1
+ R7 1
  U8 3
  U3 14
- R7 1
-Net 12 "" ""
- U3 12
- R4 1
- R5 2
+Net 9 "" ""
  U1 6
-Net 13 "/SPI_CS" "SPI_CS"
- JP2 2
- U3 3
-Net 14 "/1Wire" "1Wire"
- P2 7
+ R4 1
+ U3 12
+ R5 2
+Net 10 "/1Wire" "1Wire"
  R7 2
  U8 4
-Net 16 "/SDA" "SDA"
- R2 2
- U6 4
+ P2 7
+Net 11 "/SPI_CS" "SPI_CS"
+ U3 3
+ JP2 2
+Net 14 "/SDA" "SDA"
  P2 3
-Net 17 "/SCL" "SCL"
+ U6 4
+ R2 2
+Net 15 "/SCL" "SCL"
+ R1 2
  P2 5
  U6 5
- R1 2
-Net 19 "/0v" "0v"
- U6 2
- R4 2
- C3 2
- P2 20
- P2 9
- P2 6
- P1 1
- C1 2
- U6 7
- P2 14
- U6 1
- U1 4
- U3 13
- U1 8
- U3 5
- R3 1
- D1 1
- C5 2
- U3 6
- P4 2
- U3 4
- U8 5
- P2 25
+Net 16 "" ""
+ R8 2
+ P4 1
+ U6 8
+ U6 9
+Net 17 "" ""
+ U3 11
+ C5 1
+ L1 2
+ R5 1
+ R8 1
+ U6 10
+Net 19 "/5v" "5v"
+ P2 4
+ P2 2
 Net 25 "/SPI_CLK" "SPI_CLK"
- U3 1
  P2 23
+ U3 1
 Net 29 "/MOSI" "MOSI"
  U3 2
  P2 19
-Net 34 "" ""
- U1 3
+Net 31 "" ""
  C2 1
-Net 35 "" ""
+ U1 3
+Net 32 "" ""
+ D1 2
+ L1 1
  C2 2
  U1 1
- L1 1
- D1 2
-Net 36 "" ""
+Net 33 "" ""
  P2 26
  JP2 1
-Net 37 "" ""
- P2 24
+Net 35 "" ""
  JP2 3
-Net 38 "" ""
- R8 2
- U6 8
- P4 1
- U6 9
- JP1 2
+ P2 24
+Net 39 "/0v" "0v"
+ U6 1
+ U6 2
+ U6 7
+ C1 2
+ P1 1
+ U1 4
+ P4 2
+ R4 2
+ C3 2
+ U1 8
+ U8 5
+ U3 13
+ P2 9
+ P2 6
+ R3 1
+ D1 1
+ C5 2
+ P2 25
+ P2 14
+ P2 20
+ U3 4
+ U3 5
+ U3 6
 }
 #End
